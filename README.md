@@ -2,7 +2,7 @@
 # AsahikawaProcon-Server
 
 *[C# client sample](https://github.com/ZenryokuService/AsahikawaProcon-Server/tree/master/client/cSharp)
-
+*[how to send commands to CHaserServer](https://github.com/ZenryokuService/AsahikawaProcon-Server/wiki/Home(メモ))
 
 <img src="https://raw.githubusercontent.com/hal1437/AsahikawaProcon-Server/master/doc/Screenshot3.png" width="800">
 <img src="https://raw.githubusercontent.com/hal1437/AsahikawaProcon-Server/master/doc/Screenshot1.png" width="400">
