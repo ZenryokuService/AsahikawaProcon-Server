@@ -1,5 +1,8 @@
-
+# Forked by ZenryokuService
 # AsahikawaProcon-Server
+
+*[C# client sample](https://github.com/ZenryokuService/AsahikawaProcon-Server/tree/master/client/cSharp)
+
 
 <img src="https://raw.githubusercontent.com/hal1437/AsahikawaProcon-Server/master/doc/Screenshot3.png" width="800">
 <img src="https://raw.githubusercontent.com/hal1437/AsahikawaProcon-Server/master/doc/Screenshot1.png" width="400">
@@ -30,4 +33,3 @@
 MacOSX 10.11.3 ElCapitan  
 Qt Creator 3.3.0  
 Desktop Qt 5.4.2 clang 64bit  
-
