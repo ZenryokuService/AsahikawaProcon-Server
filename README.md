@@ -1,4 +1,14 @@
 # Forked by ZenryokuService
+### How to implement client app
+<send data : receive data>
+1. access to CHaserServer
+2. send Team name : “@“
+3. send “gr\r\n” : now position
+4. send send command for control : now position
+5. send “#\r\n”
+6. loop from 3 to 5 step
+
+
 # AsahikawaProcon-Server
 
 *[C# client sample](https://github.com/ZenryokuService/AsahikawaProcon-Server/tree/master/client/cSharp)<br>
