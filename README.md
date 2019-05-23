@@ -8,6 +8,62 @@
 5. send “#\r\n”<br>
 6. loop from 3 to 5 step<br>
 
+#### Response sample
+1. get around position data like this "1XXXXXXXXX"<br>
+first data is meaning alive or dead "1" is alive. last 9 byte data is meaning position data. as flow<br>
+"生きています" = 1<br>
+******************<br>
+|  [0]     [0]      [2] |<br>
+*******************<br>
+| [0]   [0]    [0]|<br>
+******************<br>
+|  [0]     [0]      [0] |<br>
+******************<br>
+this data is meaning player of center and info about around.<br>
+0; none<br>
+1; items<br>
+2; block<br>
+3; another player<br>
+##### command info
+*"gr"*: get ready command get position player is<br>
+"1002000000"<br>
+生きています<br>
+******************<br>
+|  [0]     [0]      [2] |<br>
+******************<br>
+|  [0]     [0]      [0] |<br>
+******************<br>
+|  [0]     [0]      [0] |<br>
+******************<br>
+<br>
+*"lu"*: look at upper way response is as flow.<br>
+"1002200002"<br>
+生きています = 1<br>
+******************<br>
+|  [0]     [0]      [2] |<br>
+******************<br>
+|  [2]    [0]     [0] |<br>
+******************<br>
+|  [0]     [0]      [2] |<br>
+******************<br>
+<br>
+*"wu"*: walk command to upper way<br>
+"1200002000"<br>
+生きています = 1<br>
+******************<br>
+|  [2]     [0]      [0] |<br>
+******************<br>
+|  [0]     [0]      [2] |<br>
+******************<br>
+|  [0]     [0]      [0] |<br>
+******************<br>
+<br>
+*"sd"*: search command to under the direction<BR>
+"1000000202"<br>
+生きています = 1<br>
+********************************************************<br>
+|  [0]     [0]      [0] |  [0]    [ 0]      [0] |  [2]    [0]     [2] |<br>
+********************************************************<br>
 
 # AsahikawaProcon-Server
 
