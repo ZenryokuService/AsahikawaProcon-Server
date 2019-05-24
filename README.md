@@ -1,6 +1,6 @@
 # Forked by ZenryokuService
 ### How to implement client app
-<send data : receive data>
+##### [send data : receive data]
 1. access to CHaserServer<br>
 2. send Team name : “@“<br>
 3. send “gr\r\n” : now position<br>
