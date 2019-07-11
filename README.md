@@ -1,6 +1,6 @@
 # Forked by ZenryokuService
 元々のリポジトリは上の方にあるリンクを参照して下さい
-### News
+### News or Plans
 Create CHaserServer in Java
 #### Image of Implementation
 1. Using [JavaFX](https://www.oracle.com/technetwork/jp/java/javafx/documentation/index-1691946-ja.html)
