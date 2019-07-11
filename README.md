@@ -1,4 +1,10 @@
 # Forked by ZenryokuService
+元々のリポジトリは上の方にあるリンクを参照して下さい
+### News
+Create CHaserServer in Java
+#### Image of Implementation
+1. Using [JavaFX](https://www.oracle.com/technetwork/jp/java/javafx/documentation/index-1691946-ja.html)
+2. now loading ...
 ### How to implement client app
 ##### [send data : receive data]
 1. access to CHaserServer<br>
